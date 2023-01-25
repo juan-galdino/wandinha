@@ -82,7 +82,7 @@ img {
 @media screen and (max-width: 39.9375em) {
   header {
     position: relative;
-    background-image: url('./imagens/header/fundo-celular-sem-lua.webp');
+    background-image: url('./imagens/header/fundo-menor-sem-lua.webp');
     padding: 4rem 3rem;
     flex-direction: column;
   }
