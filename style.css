@@ -38,15 +38,31 @@ h1 {
   font-family: 'Fiddums', 'Times New Roman', Times, serif;
   width: 90%;
 }
-button {
+a {
+  display: block;
   max-width: 9.375rem;
   font-size: 1.5rem;
   font-weight: 700;
   border-radius: 3.125rem;
   border: none;
   padding: 0.5rem 2rem 0.5rem 2rem;
+  text-decoration: none;
   color: hsl(0, 0%, 100%);
   background-color: hsl(277, 100%, 39%);
+  transition: all ease 0.3s;
+}
+a:hover,
+a:focus {
+  outline: none;
+  filter: brightness(1.5);
+  transform: scale(1.04);
+  box-shadow: 0 5px 15px hsl(277, 100%, 39%);
+}
+a:active {
+  filter: brightness(0.8);
+  box-shadow: inset 0px 0px 48px 18px hsl(277, 100%, 39%);
+  box-shadow: 0 5px 15px hsl(277, 100%, 39%);
+  transform: scale(1);
 }
 img {
   position: absolute;
