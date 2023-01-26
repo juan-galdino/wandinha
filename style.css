@@ -9,6 +9,9 @@
   padding: 0;
   margin: 0;
 }
+:root {
+  --cor-primaria: hsl(277, 100%, 39%);
+}
 body {
   min-height: 100vh;
   font-family: 'Nunito', sans-serif;
@@ -48,7 +51,7 @@ a {
   padding: 0.5rem 2rem 0.5rem 2rem;
   text-decoration: none;
   color: hsl(0, 0%, 100%);
-  background-color: hsl(277, 100%, 39%);
+  background-color: var(--cor-primaria);
   transition: all ease 0.3s;
 }
 a:hover,
@@ -56,12 +59,12 @@ a:focus {
   outline: none;
   filter: brightness(1.5);
   transform: scale(1.04);
-  box-shadow: 0 5px 15px hsl(277, 100%, 39%);
+  box-shadow: 0 5px 15px var(--cor-primaria);
 }
 a:active {
   filter: brightness(0.8);
-  box-shadow: inset 0px 0px 48px 18px hsl(277, 100%, 39%);
-  box-shadow: 0 5px 15px hsl(277, 100%, 39%);
+  box-shadow: inset 0px 0px 48px 18px var(--cor-primaria);
+  box-shadow: 0 5px 15px var(--cor-primaria);
   transform: scale(1);
 }
 img {
